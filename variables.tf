@@ -46,6 +46,6 @@ variable "tags" {
     description = "(Optional) A mapping of tags to assign to the bucket."
     default     = {
         environment = "DEV"
-        terraform   = "true"
+        terraform   = "false"
     }
 }
