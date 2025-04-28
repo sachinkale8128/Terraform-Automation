@@ -22,7 +22,7 @@ pipeline {
 
         stage ("Action") {
             steps {
-                echo "Terraform action is --> ${params.action}"
+                echo "Terraform action is --> ${null}"
                 sh ('terraform ${action} --null') 
            }
         }
