@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
     bucket = "kalessample-batch"
-    key = "lockid"
+    key = "lockID"
     region = "us-east-1"
-    dynamodb_table = "null"
+    dynamodb_table = "my-dynamodb-table"
   }
 }
